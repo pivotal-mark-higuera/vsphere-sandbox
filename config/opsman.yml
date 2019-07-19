@@ -6,7 +6,7 @@ opsman-configuration:
       username: Administrator@vsphere.local
       password: ((vcenter-password))
       datastore: LUN01
-      host: sc2-host-b103-43.haas-226.pez.pivotal.io            # vCenter host to deploy Ops Manager in
+      host: sc2-host-b102-06.haas-226.pez.pivotal.io            # vCenter host to deploy Ops Manager in
       datacenter: Datacenter
       resource_pool: /Datacenter/host/Cluster/Resources/pas-az1 # or /<Data Center Name>/host/<Cluster Name>
       folder: /Datacenter/vm/
